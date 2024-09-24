@@ -1,7 +1,30 @@
-main {
+.ljus1 {
   background-color: gray;
+  display: flex;
+  justify-content: center;
 }
 
 .trafikljus {
   background-color: white;
+  height: 900px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+div {
+  height: 250px;
+  width: 250px;
+  margin: 5px;
+}
+.röd {
+  background-color: red;
+  border: 20px solid darkred;
+}
+.gul {
+  background-color: yellow;
+  border: 20px solid rgb(249, 187, 62);
+}
+.grön {
+  background-color: green;
+  border: 20px solid darkgreen;
 }
