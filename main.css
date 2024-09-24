@@ -11,11 +11,12 @@
   margin: 15px;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 div {
   height: 250px;
   width: 250px;
-  margin: 5px;
 }
 .röd {
   background-color: red;
@@ -39,17 +40,14 @@ div {
 .litenröd {
   background-color: rgb(246, 117, 117);
   height: 125px;
-  margin: 0px;
 }
 .litengul {
   background-color: rgb(246, 246, 161);
   height: 125px;
   width: 125px;
-  margin: 0px;
 }
 .litengrön {
   background-color: rgb(136, 252, 136);
   height: 125px;
   width: 125px;
-  margin: 0px;
 }
